@@ -1,0 +1,196 @@
+/*Fonts*/
+
+p{
+    display: block;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+    color: #2D2D2E;
+}
+
+/*Carousel*/
+.carousel-caption{
+    position: absolute;
+    top:300px;
+}
+
+.carousel-caption h1{
+    font-family: 'Archivo Black', sans-serif;
+    color: #2D2D2E;
+    margin-bottom: 30px;
+}
+
+.input-group-text{
+    border: 0; 
+    padding: 15px; 
+    background-color: white;
+}
+
+/*Navbar*/
+.nav-link{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 13.5px;
+}
+
+.nav-item{
+    width: 90px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.navbar-nav a{
+    margin-bottom: 10px;
+}
+
+.home li:hover{
+    /* border-bottom: 3px solid linear-gradient( to right, #11CEC4, #00A1C6 ); */
+    background:
+    linear-gradient(to right, #11CEC4, #00A1C6 )
+    bottom   
+    no-repeat; 
+    background-size:100% 3px ;
+}  
+
+.active{
+    background:
+    linear-gradient(to right, #11CEC4, #00A1C6 )
+    bottom   
+    no-repeat; 
+    background-size:100% 3px ;
+}
+
+/*Section*/
+.container{
+    padding: 0 15px 0 15px;
+  }
+
+.section-header h3{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    background:
+    linear-gradient(to right, #11CEC4, #00A1C6 )
+    bottom   
+    no-repeat; 
+    background-size:110px 3px;
+    padding-bottom: 15px;
+}
+
+.section-header p{
+    margin: 30px 0 30px 0;
+    text-align: center;
+}
+
+#vision h3{
+    font-family: 'Archivo Black', sans-serif;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+/* #vision h3::before{
+    font-family: 'Archivo Black', sans-serif;
+    background:
+    linear-gradient(to right, #11CEC4, #00A1C6 )
+    bottom   
+    no-repeat; 
+    background-size:110px 3px;
+    padding-bottom: 15px;
+    left: calc(3% - 11px);
+} */
+
+.mission{
+  padding: 60px 0 40px 0;
+} 
+
+/*Button*/
+.btn{
+  color: white;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 15px;
+  background: linear-gradient(to right, #11CEC4, #00A1C6)
+}
+
+#services-container {
+    background: url(../img/services.png) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+#services-caption{
+    color: white;
+    font-family: 'Hind Madurai', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#services a{
+    border: 1px solid white; 
+    border-radius: 5px; 
+    color: white; 
+    padding: 13px 40px 10px 40px; 
+    font-size: 23px; width: 241px; 
+    letter-spacing: 2px; 
+    margin-left: 20px;
+}
+
+#services a:hover{
+    background-color: white;
+    color: #11CEC4;
+    text-decoration: none;
+}
+
+.section-content h4{
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-content .box{
+    padding: 20px 15px 5px 15px; 
+    text-align: center; 
+    background-color: white;  
+    border-radius: 10px;
+}
+
+#solutions .section-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#customers .message-box{
+    background-color: white;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 5px 5px 20px 1px #E2EEF6;
+    margin-bottom: 20px;
+    padding: 0 20px 20px 20px;
+    margin-top: 5%;
+}
+
+#customers .section-content img{
+    display: inline;
+    margin: 30px 0 30px 20px; 
+    width: 60px; 
+    height: 60px; 
+}
+
+#customers .section-content p{
+    padding: 0 20px 20px 20px; 
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+/* #customers .section-content .arrow{
+    position: absolute;
+    margin-left: 20px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 40px solid #fff;
+} */
+
+    

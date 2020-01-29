@@ -4,84 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="img/favicon.png" rel="icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Hind+Madurai&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Office Productivity Solutions</title>
 </head>
-<style type="text/css">
-/*Carousel*/
-.carousel-caption{
-  position: absolute;
-  top:300px;
-}
-
-.carousel-caption h1{
-  font-family: 'Archivo Black', sans-serif;
-  color: #2D2D2E;
-  margin-bottom: 30px;
-}
-
-.input-group-text{
-  border: 0; 
-  padding: 15px; 
-  background-color: white;
-}
-
-/*Navbar*/
-.nav-link{
-  font-family: 'Hind Madurai', sans-serif;
-  font-size: 14px;
-}
-
-/* .nav-link::after{
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: linear-gradient( to right, #11CEC4, #00A1C6 ) left bottom no-repeat;
-    transition: width .3s;
-}
- 
-.nav-link:hover::after{
-  width: 100%;
-  transition: width
-} */
-
-/*Section*/
-.section-header h3{
-  margin-top: 50px;
-  text-align: center;
-  font-family: 'Archivo Black', sans-serif;
-  padding-bottom: 15px;
-}
-
-.section-header p{
-  margin-top: 50px;
-  text-align: center;
-}
-
-/*Button*/
-.btn{
-  color: white;
-  font-family: 'Hind Madurai', sans-serif;
-  font-size: 15px;
-  background: linear-gradient(to right, #11CEC4, #00A1C6)
-}
-
-/*Font*/
-h3{
-  font-family: 'Archivo Black', sans-serif;
-}
-
-p{
-  font-family: 'Hind Madurai', sans-serif;
-  font-size: 14px;
-  color: #2D2D2E;
-}
-
-</style>
-<body>
+<body class="home">
     <header>
         <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
             <a class="navbar-brand" href="#">
@@ -94,26 +24,26 @@ p{
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto mr-5">
-                    <li class="nav-item active mr-3">
-                        <a class="nav-link mr-3" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link mr-3" href="#">About</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
                     </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link mr-3" href="#">Solutions</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Solutions</a>
                     </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link mr-3" href="#">Customers</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Customers</a>
                     </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link mr-3" href="#">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link mr-3" href="#">Events</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
                     </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link mr-3" href="#">Careers</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Careers</a>
                     </li>
                 </ul>
             </div>
@@ -197,7 +127,7 @@ p{
         </div>
     </section>
 
-    <section class="about-us">
+    <section class="about-us" id="about-us">
       <div class="container-fluid">
         <div class="section-header">
           <h3>About Us</h3> 
@@ -251,15 +181,15 @@ p{
       </div>
     </section>
 
-    <section class="mission">
+    <section class="mission" id="mission">
       <div class="container">
         <div class="section-header">
           <h3>Our Mission</h3> 
-          <p >We serve as the bridge between businesses and technology. We provide expertise and service excellence that improves productivity and effectivity.</p >
+          <p>We serve as the bridge between businesses and technology. We provide expertise and service excellence that improves productivity and effectivity.</p>
         </div>
 
         <div class="section-content mt-5">
-          <div class="row" style="text-align: center;">
+          <div class="row" style="text-align: center; margin-bottom: 130px;">
             <div class="col-md-3">
               <img src="img/Our Mission-Digitize.png" alt="Digitize">
               <h5>Digitize</h5>
@@ -283,31 +213,146 @@ p{
               <h5>Analyze</h5>
               <p>Embracing the power of analytics to understand customers and provide better experience.</p> 
             </div>
+
+          </div>
+          <div class="row" id="vision">
+
+            <div class="col-md-6">
+              <h3>Our Vision</h3 >
+              <p>Together, we build an engaged future.</p>
+              <br>
+              <p>Taking business operations to a different level and streamlining business processes to achieve more effective results. Creating new platforms for greater interaction aligns the people, technology, and strategy as a result.</p>
+              <br>
+              <p>We change how businesses interacts with customers and partners and build a social community around.</p>
+            </div>
+
+            <div class="col-md-6">
+              <img src="img/Our Vision.png" alt="vision" style="margin-left: 130px;">
+            </div>
+
           </div>
         </div>
       </div>
     </section>
 
-    <!-- <section class="vision">
+    <section class="services" id="services">
+      <div class="services-container" id="services-container">
+        <div id="services-caption" class="services-caption">
+          <h3>Want to be part of the team?
+            <a href="">We're Hiring!</a> 
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="what-we-do" id="what-we-do" style="background-color: #F5FDFF; padding: 70px 0 60px 0;">
       <div class="container">
-        <div class="row" style="  margin-top: 50px;">
-          <div class="col-md-6">
-            <h3>Our Vision</h3> 
-            <p>
-              Together, we build an engaged future.
+        <div class="section-header">
+          <h3>What we do</h3> 
+          <p>Solving business challenges through our digital journey guiding pillars.</p>
+        </div>
 
-              Taking business operations to a different level and streamlining business processes to achieve more effective results. Creating new platforms for greater interaction aligns the people, technology, and strategy as a result.
+        <div class="section-content">
+          <div class="row" style="margin-bottom: 30px;">
+            <div class="col-md-4 offset-md-2">
+              <div class="box">
+                <img src="img/What We Do-Digital-Presence.png" alt="" height="70px" width="70px">
+                <h4>Digital Presence</h4>
+                <p>Building brands through great user experience and data-driven strategy.</p>
+              </div>
+            </div>
 
-              We change how businesses interacts with customers and partners and build a social community around.
-            </p >
+            <div class="col-md-4 ">
+              <div class="box">
+                <img src="img/What we do-web_mobile_tech.png" alt="" height="70px" width="70px">
+                <h4>Web & Mobile Technology</h4>
+                <p>Managing and developing software solutions from end to end.</p>
+              </div>
+            </div>
           </div>
 
-          <div class="col-md-6">
-            <img src="img/Our Vision.png" alt="">
+          <div class="row" style="margin-bottom: 30px;">
+            <div class="col-md-4 offset-md-2">
+              <div class="box">
+                <img src="img/It_services_Infra.png" alt="" height="70px" width="70px">
+                <h4>IT Services & Infrastructure</h4>
+                <p>Building the foundation of a smart office.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="box">
+                <img src="img/Analytics.png" alt="" height="70px" width="70px">
+                <h4>System Integration & Analytics</h4>
+                <p>Transforming data to drive businesses to the next wave of productivity and growth.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="solutions" id="solutions">
+      <div class="container">
+        <div class="section-header">
+          <h3>Solutions</h3> 
+          <p>We create & craft projects that ooze creativity in every aspect. We try to create a benchmark in everything we do.</p>
+        </div>
+
+        <div class="section-content">
+          <div class="section-container">
+            <div style="width: 100%; height: 34%; padding-bottom: 10px">
+              <img src="img/solution-1.jpg" alt="" >
+            </div>
           </div>
         </div>
       </div>
     </section> -->
+
+    <section class="customers" id="customers" style="background-color: #F5FDFF; padding: 70px 0 60px 0;">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3>What Our Client Says</h3> 
+          <p>We empower businesses to grow every day.</p>
+        </div>
+
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-5 offset-md-1">
+              <div class="message-box">
+                <img src="img/quote-icon.png" alt="quote">
+                <p>The suites of applications OPS developed for Unilever Food Solutions has definitely made us proud which I will highly recommend to anyone who needs a digital solution in improving the operations processes in achieving long term goals</p>
+              </div>
+              <div class="arrow"></div>
+              <p style="margin-left: 7%; margin-top: 3%;">Jack Kee</p>
+              <p style="margin-left: 7%; margin-top: 3%; margin-top: 0">Unilever Food Solutions</p>
+            </div>
+            <div class="col-md-5">
+              <div class="message-box">
+                <img src="img/quote-icon.png" alt="quote">
+                <p>OPS provides cost effective IT solutions and always listen to our needs. They also provide excellent and responsive after-sales service. It has been a pleasure working with them and we’ll continue to do so in the foreseeable future!</p>
+              </div>
+              <div class="arrow"></div>
+              <p style="margin-left: 7%; margin-top: 3%;">Deqiang Lim</p>
+              <p style="margin-left: 7%; margin-top: 3%; margin-top: 0">MCES</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners" id="partners">
+      <div class="container">
+        <div class="section-header">
+          <h3>Customers & Partners</h3> 
+        </div>
+
+        <div class="section-content">
+          
+        </div>
+      </div>
+    </section>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
