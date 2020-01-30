@@ -7,24 +7,6 @@ p{
     color: #2D2D2E;
 }
 
-/*Carousel*/
-.carousel-caption{
-    position: absolute;
-    top:300px;
-}
-
-.carousel-caption h1{
-    font-family: 'Archivo Black', sans-serif;
-    color: #2D2D2E;
-    margin-bottom: 30px;
-}
-
-.input-group-text{
-    border: 0; 
-    padding: 15px; 
-    background-color: white;
-}
-
 /*Navbar*/
 .nav-link{
     font-family: 'Hind Madurai', sans-serif;
@@ -41,8 +23,7 @@ p{
     margin-bottom: 10px;
 }
 
-.home li:hover{
-    /* border-bottom: 3px solid linear-gradient( to right, #11CEC4, #00A1C6 ); */
+.home .navbar-nav li:hover{
     background:
     linear-gradient(to right, #11CEC4, #00A1C6 )
     bottom   
@@ -58,10 +39,28 @@ p{
     background-size:100% 3px ;
 }
 
+/*Intro Section*/
+.carousel-caption{
+    position: absolute;
+    top:300px;
+}
+
+.carousel-caption h1{
+    font-family: 'Archivo Black', sans-serif;
+    color: #2D2D2E;
+    margin-bottom: 30px;
+}
+
+#intro .input-group-text{
+    border: 0; 
+    padding: 15px; 
+    background-color: white;
+}
+
 /*Section*/
 .container{
     padding: 0 15px 0 15px;
-  }
+}
 
 .section-header h3{
     margin-top: 50px;
@@ -109,6 +108,7 @@ p{
   background: linear-gradient(to right, #11CEC4, #00A1C6)
 }
 
+/*What We Do Section*/
 #services-container {
     background: url(../img/services.png) no-repeat center center fixed;
     display: table;
@@ -158,11 +158,17 @@ p{
     border-radius: 10px;
 }
 
-#solutions .section-container{
-    display: flex;
-    flex-wrap: wrap;
+.section-content .box:hover {
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
 }
 
+/* #solutions .section-container{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/*Customers & Partners Section*/
 #customers .message-box{
     background-color: white;
     border-radius: 0 0 4px 4px;
@@ -185,12 +191,247 @@ p{
     margin-bottom: 0;
 }
 
-/* #customers .section-content .arrow{
-    position: absolute;
+#customers .section-content .arrow{
+    width: 0;
+    height: 0;
     margin-left: 20px;
+    position: absolute;
+    bottom: 90px;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     border-top: 40px solid #fff;
-} */
+}
+
+/*What Our Client Says Section*/
+#quote .quote-container{
+    background: url(../img/instant-quote1.png) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+#quote .quote-caption{
+    color: white;
+    font-family: 'Hind Madurai', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#quote a{
+    border: 1px solid white; 
+    border-radius: 5px; 
+    color: white; 
+    padding: 13px 40px 10px 40px; 
+    font-size: 23px; width: 241px; 
+    letter-spacing: 2px; 
+    margin-left: 20px;
+}
+
+#quote a:hover{
+    background-color: white;
+    color: #11CEC4;
+    text-decoration: none;
+}
+
+/*Contact Us Section*/
+#contact-us .section-header{
+    margin-bottom: 50px;
+}
+
+#contact-us li{
+    list-style-type: none;
+    display: table;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+#contact-us img{
+    width: 25px;
+    height: 25px;
+    margin-right: 25px;
+}
+
+#contact-us p{
+    display: table-cell;
+    vertical-align: top;
+}
+
+#contact-us .header{
+    font-size: 21px;
+    font-weight: 500;
+    color: #2D2D2E;
+}
+
+#contact-us .country{
+    color: #77c2b5;
+}
+
+#contact-us .address{
+    color: #A5A5AF;
+    font-weight: 500;
+}
+
+#contact-us #map{
+    height: 280px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#contact-us a{
+    font-size: 21px;
+    color: #2D2D2E;
+    display: table-cell;
+    vertical-align: top;
+    margin: 10px;
+}
+
+#contact-us i{
+    margin-right: 25px;
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+/*Solutions Section*/
+.item1 { 
+    grid-area: one;
+    width: 431px; 
+    height: 199px;
+    overflow: hidden;
+}
+.item2 { 
+    grid-area: two;
+    width: 205px; 
+    height: 190px;
+    overflow: hidden;
+}
+.item3 { 
+    grid-area: three;
+    width: 215px; 
+    height: 190px;
+    overflow: hidden;
+}
+
+.item4 { 
+    grid-area: four;
+    width: 431px; 
+    height: 199px;  
+    overflow: hidden;
+}
+
+.item5 { 
+    grid-area: five; 
+    width: 367px; 
+    height: 399px;
+    overflow: hidden;
+}
+
+.item6 { 
+    grid-area: six;
+    width: 367px; 
+    height: 198px; 
+    overflow: hidden;
+}
+.item7 { 
+    grid-area: seven; 
+    width: 241px; 
+    height: 199px;
+    overflow: hidden;
+}
+
+.item8 { 
+    grid-area: eight; 
+    width: 241px; 
+    height: 398px;
+    overflow: hidden;
+}
+
+.image-hover:hover img{
+    transform: scale(1.2);
+}
+
+img{
+    max-width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-hover {
+    position: relative;
+}
+  
+.image-hover img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.item-caption {
+    position: absolute; 
+    bottom: 1px; 
+    left: 8px;
+    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 98%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    padding: 15px 20px 30px 20px;
+    text-align: left;
+    height: 70px;
+}
+  
+.image-hover:hover .item-caption {
+    opacity: 1;
+}
+
+.item-caption h2{
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    transition: all .2s ease-in-out;
+} 
+
+.item-caption p{
+    font-weight: 100;
+    color: white;
+} 
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'one one five five seven'
+  'two three five five eight'
+  'four four six six eight';
+}
+
+.grid-container > div {
+  text-align: center;
+}
+
+.grid-container > img {
+    margin-bottom: 12px;
+}
+
+
+/*Owl Carousel*/
+.owl-carousel .item {
+    width: 208px; 
+    margin-right: 25px;
+}
+
+.owl-carousel .item img {
+    display: block;
+    width: 100%;
+    opacity: 0.5;
+}
+
+
 
     
