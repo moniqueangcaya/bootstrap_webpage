@@ -7,6 +7,14 @@ p{
     color: #2D2D2E;
 }
 
+/*Button*/
+.btn{
+    color: white;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 15px;
+    background: linear-gradient(to right, #11CEC4, #00A1C6);
+  }
+
 /*Navbar*/
 .nav-link{
     font-family: 'Hind Madurai', sans-serif;
@@ -20,7 +28,7 @@ p{
 }
 
 .navbar-nav a{
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .home .navbar-nav li:hover{
@@ -57,6 +65,31 @@ p{
     background-color: white;
 }
 
+#intro .btn{
+    padding: 0 20px 0 20px;
+}
+
+#intro .btn:hover{
+    background-color: white;
+    color: #00A1C6;
+}
+
+/*About Us Section*/
+#about-us .btn{
+    background: linear-gradient(to right, #11CEC4, #00A1C6);
+    border: 1px solid rgba(255,255,255,.5);
+    border-radius: 5px;
+    padding: 10px 35px 10px 35px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+/* #about-us .btn:hover{
+    background: white;
+    color: #00A1C6;
+    border: 1px solid #00A1C6;
+} */
+
 /*Section*/
 .container{
     padding: 0 15px 0 15px;
@@ -79,11 +112,35 @@ p{
     text-align: center;
 }
 
-#vision h3{
+/*Mission Section*/
+#mission{
+  padding: 60px 0 40px 0;
+} 
+
+#mission p{
+    line-height: 1.6;
+}
+
+#mission h5{
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+/*Vision*/
+.vision{
     font-family: 'Archivo Black', sans-serif;
     text-align: left;
     padding-bottom: 15px;
 }
+
+/* .line{
+    background:
+    linear-gradient(to right, #11CEC4, #00A1C6 )
+    bottom   
+    no-repeat; 
+    background-size:110px 3px;
+} */
 
 /* #vision h3::before{
     font-family: 'Archivo Black', sans-serif;
@@ -96,17 +153,6 @@ p{
     left: calc(3% - 11px);
 } */
 
-.mission{
-  padding: 60px 0 40px 0;
-} 
-
-/*Button*/
-.btn{
-  color: white;
-  font-family: 'Hind Madurai', sans-serif;
-  font-size: 15px;
-  background: linear-gradient(to right, #11CEC4, #00A1C6)
-}
 
 /*What We Do Section*/
 #services-container {
@@ -168,7 +214,11 @@ p{
     flex-wrap: wrap;
 } */
 
-/*Customers & Partners Section*/
+/*What Our Client Says Section*/
+#customers .name{
+    font-weight: 600;
+}
+
 #customers .message-box{
     background-color: white;
     border-radius: 0 0 4px 4px;
@@ -191,10 +241,10 @@ p{
     margin-bottom: 0;
 }
 
-#customers .section-content .arrow{
+#customers .arrow{
     width: 0;
     height: 0;
-    margin-left: 20px;
+    margin-left: 40px;
     position: absolute;
     bottom: 90px;
     border-left: 30px solid transparent;
@@ -202,7 +252,7 @@ p{
     border-top: 40px solid #fff;
 }
 
-/*What Our Client Says Section*/
+/*Quote*/
 #quote .quote-container{
     background: url(../img/instant-quote1.png) no-repeat center center fixed;
     display: table;
@@ -240,6 +290,10 @@ p{
 }
 
 /*Contact Us Section*/
+#contact-us{
+    padding: 60px 0 10px 0;
+}
+
 #contact-us .section-header{
     margin-bottom: 50px;
 }
@@ -286,7 +340,7 @@ p{
 
 #contact-us a{
     font-size: 21px;
-    color: #2D2D2E;
+    color: #A5A5AF;
     display: table-cell;
     vertical-align: top;
     margin: 10px;
@@ -301,27 +355,27 @@ p{
 /*Solutions Section*/
 .item1 { 
     grid-area: one;
-    width: 431px; 
-    height: 199px;
+    width: 431.35px; 
+    height: 199.31px;
     overflow: hidden;
 }
 .item2 { 
     grid-area: two;
-    width: 205px; 
-    height: 190px;
+    width: 205.54px; 
+    height: 190.15px;
     overflow: hidden;
 }
 .item3 { 
     grid-area: three;
-    width: 215px; 
-    height: 190px;
+    width: 215.68px; 
+    height: 190.15px;
     overflow: hidden;
 }
 
 .item4 { 
     grid-area: four;
-    width: 431px; 
-    height: 199px;  
+    width: 431.35px; 
+    height: 198.46px;  
     overflow: hidden;
 }
 
@@ -420,7 +474,7 @@ img{
 }
 
 
-/*Owl Carousel*/
+/*Customers & Partners Section*/
 .owl-carousel .item {
     width: 208px; 
     margin-right: 25px;
@@ -432,6 +486,18 @@ img{
     opacity: 0.5;
 }
 
+/*Footer*/
+footer{
+    background: linear-gradient(to right, #11CEC4, #00A1C6); 
+    padding: 0 0 40px 0; 
+    font-size: 15px;
+}
+
+.footer-copyrights{
+    padding: 40px 30px 0 30px; 
+    color: white; 
+    font-family: 'Hind Madurai', sans-serif;
+}
 
 
     
